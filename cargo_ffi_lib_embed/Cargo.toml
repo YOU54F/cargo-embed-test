@@ -1,0 +1,11 @@
+[package]
+name = "foo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pact_ffi = "0.4.23"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "pact_ffi"
